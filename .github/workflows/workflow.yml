@@ -13,5 +13,5 @@ jobs:
         myInput: 'Vamsi Krishna'
     - name: output
       run: |
-        echo ${{ steps.hello.outputs.memory }}
+        echo ${{ steps.hello.output.memory }}
         echo "Successful"
