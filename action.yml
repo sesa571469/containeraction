@@ -1,16 +1,14 @@
-name: "My first container action"
-description: "A cloud guru"
-author: "Vamsi Krishna"
+name: 'My first container action'
+description: 'A cloud guru'
+author: 'Vamsi Krishna'
 inputs:
   myInput:
     description: 'Greetings to use'
     required: true
-    default: 'Awesome guru'
-    
+    default: 'Awesome guru'  
 outputs:
   myOutput:
     description: 'total memory'
-    
 runs:
   using: 'docker'
   image: 'Dockerfile'
